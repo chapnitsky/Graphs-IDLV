@@ -1,0 +1,63 @@
+node(1) | node(2).
+node(3) | node(4).
+node(5) | node(6).
+node(7) | node(8).
+node(9) | node(10).
+node(11) | node(12).
+node(13) | node(14).
+node(15) | node(16).
+node(17) | node(18).
+node(19) | node(20).
+node(21) | node(22).
+node(23) | node(24).
+node(25) | node(26).
+node(27) | node(28).
+node(29) | node(30).
+node(31) | node(32).
+node(33) | node(34).
+node(35) | node(36).
+node(37) | node(38).
+node(39) | node(40).
+
+edge(1, 9) | edge(1, 13).
+edge(1, 37) | edge(2, 8).
+edge(2, 10) | edge(2, 16).
+edge(2, 26) | edge(3, 23).
+edge(3, 26) | edge(3, 33).
+edge(4, 20) | edge(4, 27).
+edge(5, 21) | edge(5, 22).
+edge(6, 3) | edge(6, 27).
+edge(6, 34) | edge(8, 32).
+edge(9, 2) | edge(10, 12).
+edge(10, 26) | edge(11, 13).
+edge(11, 19) | edge(12, 1).
+edge(13, 8) | edge(13, 31).
+edge(14, 3) | edge(14, 16).
+edge(15, 34) | edge(15, 35).
+edge(16, 24) | edge(17, 15).
+edge(18, 8) | edge(18, 16).
+edge(18, 32) | edge(19, 4).
+edge(19, 16) | edge(19, 29).
+edge(19, 32) | edge(19, 33).
+edge(20, 28) | edge(20, 36).
+edge(21, 25) | edge(21, 40).
+edge(22, 6) | edge(22, 9).
+edge(22, 25) | edge(23, 12).
+edge(23, 15) | edge(23, 39).
+edge(24, 21) | edge(25, 8).
+edge(25, 11) | edge(25, 19).
+edge(25, 30) | edge(26, 39).
+edge(26, 40) | edge(27, 15).
+edge(27, 18) | edge(27, 39).
+edge(28, 16) | edge(29, 10).
+edge(29, 20) | edge(30, 1).
+edge(30, 14) | edge(30, 18).
+edge(31, 7) | edge(31, 15).
+edge(31, 38) | edge(31, 39).
+edge(32, 10) | edge(32, 14).
+edge(32, 35) | edge(33, 32).
+edge(34, 20) | edge(35, 14).
+edge(35, 24) | edge(35, 32).
+edge(36, 13) | edge(36, 30).
+edge(37, 24) | edge(38, 17).
+edge(40, 6) | edge(40, 16) | edge(40, 18).

@@ -1,0 +1,5 @@
+path(X,Y) :- edge(X,Y).
+path(X,Y) :- path(X,Z), path(Z, Y).
+edge(X,Y) :- edge(Y,X).
+reachable(X,Y) :- node(X), node(Y), path(X,Y).
+separate(X,Y) :- node(X), node(Y), not reachable(X,Y).
