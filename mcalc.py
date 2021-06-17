@@ -154,6 +154,9 @@ while not done:
         if not used_any_row:
             model = list(dict.fromkeys(model))
             break_while = True  # Found all model
+
+    print(str(nodes))
+    print("current model: " + str(model))
     inp = input('If you would like to finish just press Enter.\n'
                 'Enter a vertex (positive number):')
     if inp == '':
@@ -162,7 +165,9 @@ while not done:
     elif not inp.isdigit():
         print('Wrong input, need a number')
         exit(0)
-    elif inp not in nodes:
+
+    inp = int(inp)
+    if inp not in nodes:
         model.append(inp)
         nodes.append(inp)
     elif inp in nodes:
