@@ -53,16 +53,6 @@ for i in range(start, end, 1):
         x1 = x1 + w1
         w1 = w1 + width
         plt.bar(x1, data[t], width=width, label=f"{str(t)} Variables")
-        # index = -1
-        # src_offset = w1 - width
-        # for r in ratio:
-        #     index += 1
-        #     src = data_src[t][index]
-        #     if src != 0:
-        #         ax.annotate(src, xy=(r + src_offset, data[t][index]),
-        #                     xytext=(0, 3),
-        #                     ha='center',
-        #                     va='bottom')
     x = np.arange(10, max(types) + 1, 10)
     x = np.append(x, 1)
     plt.xticks(x, x)

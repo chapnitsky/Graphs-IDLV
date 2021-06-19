@@ -5,6 +5,13 @@ import numpy as np
 
 
 def generate(num_of_rules: int, rule_len: int, num_of_vars: int, max: bool):
+    """
+    :param num_of_rules:  how many rules do you want the program to have
+    :param rule_len:    what is the length of a single rule
+    :param num_of_vars: how many variables would you like to use
+    :param max: True if the user want rules length from 1 to rule_len. the max length is rule_len.
+    :return: List of all of the rules. The main function writes it to a text file: 'program.txt'
+    """
     if num_of_rules <= 0 or rule_len <= 1 or num_of_vars <= 1 or num_of_vars > rule_len*num_of_rules or num_of_vars < rule_len:
         print("Wrong arguments.")
         exit(1)

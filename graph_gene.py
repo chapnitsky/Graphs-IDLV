@@ -4,6 +4,11 @@ import sys
 
 
 def generate(num_of_vars: int, chance: float):
+    """
+    :param num_of_vars: how many variables do you want to use
+    :param chance: the probability of an edge between two variables. between 0 to 1.
+    :return: Output to text file named: 'graph_in.txt'
+    """
     if chance <= 0 or num_of_vars <= 1:
         print("Wrong arguments.")
         exit(1)

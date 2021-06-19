@@ -154,8 +154,8 @@ def dfs(src, dst, visited_dic, neighbors, path, file):
 
 
 # MAIN
-# args = sys.argv[1:]
-args = ['graph.txt', 'set', 'program.txt']
+args = sys.argv[1:]
+# args = ['graph.txt', 'set', 'program.txt']
 file_name = None
 f_return = None
 action = None

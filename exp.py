@@ -9,7 +9,7 @@ args = sys.argv[1:]
 # args = ['idlv']
 custom = False
 ratio = np.arange(1.0, 10.1, 0.1)
-if len(args) == 1 and args[0] == 'idlv':
+if len(args) == 1 and args[0] == 'idlv':  # If you write in console: python exp.py idlv
     custom = True
     ratio = np.arange(0.1, 1, 0.1)
 num_of_rules = None

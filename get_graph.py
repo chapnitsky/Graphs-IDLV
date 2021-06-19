@@ -150,8 +150,8 @@ def dfs_visit(graph: Graph, key: int, scc: bool, tree: list, exit_time_dict, exi
 
 
 # MAIN
-# args = sys.argv[1:]
-args = ['program.txt', '0']
+args = sys.argv[1:]
+# args = ['program.txt', '0']
 file_name = None
 graph_type = None
 f_return = None
